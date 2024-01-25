@@ -1,7 +1,13 @@
-import "./App.css";
+import React from "react";
 
-function App() {
-  return <div className="App">허여사의 여행노트</div>;
-}
+import Router from "./Router";
+
+const App = () => {
+  return (
+    <div>
+      <Router />
+    </div>
+  );
+};
 
 export default App;
